@@ -1,5 +1,5 @@
 # Agregacion-y-Composicion-POO
-El link de este repositorio es [Github](https://github.com/alexlomu/Agregacion-y-Composicion-POO)
+El link de este repositorio es: [Github](https://github.com/alexlomu/Agregacion-y-Composicion-POO)
 https://github.com/alexlomu/Agregacion-y-Composicion-POO.
 Para esta entrega hemos tenido que resolver un total de 3 problemas, que vienen a continuación.
 # Ejercicio a) El dia siguiente
