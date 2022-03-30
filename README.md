@@ -4,6 +4,11 @@ https://github.com/alexlomu/Agregacion-y-Composicion-POO.
 Para esta entrega hemos tenido que resolver un total de 3 problemas, que vienen a continuación.
 # Ejercicio a) El dia siguiente
 Para este ejercicio hemos tenido que realizar un código en el cual se definen ciudades, edificios y trabajadores de una empresa y crear una función que elimine una de estas ciudades, New York.
+
+El UML correspodiente es el siguiente:
+
+![uml a](https://user-images.githubusercontent.com/91721507/160934940-11304460-a1c5-429d-a0c6-58c5bc408f1c.PNG)
+
 El código propuesto es el siguiente(hay que tener en cuenta que New York se elimina desde el archivo main.py):
 ```
 class Empleado:
@@ -74,13 +79,20 @@ Se muestra primero el interrogante porque no se accede correctamente a la clase 
 ```
 
 # Ejercicio c) Alternativa a la herencia múltiple
-Para este ejercicio teníamos que modificar unas clases de un código que usamos en una entrega anterior. El código queda de la siguiente manera:
+Para este ejercicio teníamos que modificar unas clases de un código que usamos en una entrega anterior. 
+
+El UML correpondiente es el siguiente:
+
+![uml c](https://user-images.githubusercontent.com/91721507/160935618-c41b2c14-6ef8-4f8a-9947-abc880af2e4f.PNG)
+
+
+El código queda de la siguiente manera:
 ```
 class Pared:
-    def __init__(self, orientacion, ventanas):
+    def __init__(self, orientacion, ventana):
         self.orientacion = orientacion
-        self.ventanas = []
-        self.ventanas = ventanas
+        self.ventana = ventana
+
 
 class Cristal:
     def __init__(self, pared, superficie, orientacion):
@@ -94,8 +106,8 @@ class Casa:
         self.paredes = paredes
     def superficie_cristal(self):
         superficie = 0
-        for pared in Cristal.pared:
-            for ventana in Pared.ventanas:
+        for self.pared in Cristal.pared:
+            for self.ventana in Pared.ventana:
                 superficie += Cristal.superficie
         return superficie
 
