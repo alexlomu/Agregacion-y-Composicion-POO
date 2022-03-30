@@ -1,8 +1,8 @@
 class Pared:
-    def __init__(self, orientacion, ventanas):
+    def __init__(self, orientacion, ventana):
         self.orientacion = orientacion
-        self.ventanas = []
-        self.ventanas = ventanas
+        self.ventana = ventana
+
 
 class Cristal:
     def __init__(self, pared, superficie, orientacion):
@@ -16,8 +16,8 @@ class Casa:
         self.paredes = paredes
     def superficie_cristal(self):
         superficie = 0
-        for pared in Cristal.pared:
-            for ventana in Pared.ventanas:
+        for self.pared in Cristal.pared:
+            for self.ventana in Pared.ventana:
                 superficie += Cristal.superficie
         return superficie
 
