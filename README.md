@@ -79,7 +79,14 @@ Se muestra primero el interrogante porque no se accede correctamente a la clase 
 ```
 
 # Ejercicio c) Alternativa a la herencia múltiple
-Para este ejercicio teníamos que modificar unas clases de un código que usamos en una entrega anterior. El código queda de la siguiente manera:
+Para este ejercicio teníamos que modificar unas clases de un código que usamos en una entrega anterior. 
+
+El UML correpondiente es el siguiente:
+
+![uml c](https://user-images.githubusercontent.com/91721507/160935618-c41b2c14-6ef8-4f8a-9947-abc880af2e4f.PNG)
+
+
+El código queda de la siguiente manera:
 ```
 class Pared:
     def __init__(self, orientacion, ventana):
